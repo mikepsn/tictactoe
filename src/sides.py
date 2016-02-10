@@ -1,7 +1,7 @@
 class Sides(object):
     EMPTY = 0
     NOUGHT = 1
-    CROSS = 2
+    CROSS = -1
     __tokens = {EMPTY: " ", NOUGHT: "o", CROSS: "x"}
 
     # Returns the game token for a state given its value
